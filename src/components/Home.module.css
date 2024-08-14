@@ -1,0 +1,44 @@
+.container{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+.container h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(9, 101, 162);
+
+}
+
+.image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.image{
+    /* background-color: violet; */
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.intro{
+    margin-top: 50px;
+    padding: 10px;
+    background-color:hsl(180, 68%, 93%);
+    ;
+}
+.intro h2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.intro p{
+    color: rgb(83, 78, 78);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
